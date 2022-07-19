@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Личный кабинет</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220719165630" />
+	<!-- <link rel="icon" type="image/png" href="favicon.png" /> -->
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<div class="top-header__info">
+						<div class="top-header__choise _icon-location">
+							<select name="form[]" class="form">
+								<option value="1" selected>Ваш город: Москва</option>
+								<option value="2">Санкт-Петербург</option>
+								<option value="3">Сочи</option>
+								<option value="4">Краснодар</option>
+							</select>
+						</div>
+						<a class="top-header__schedule _icon-clock" data-da=".menu-top-header__list,468.98,last" href="#">
+							<span>Пн-Пт 9:00 - 19:00</span>
+						</a>
+					</div>
+					<div class="top-header__menu menu menu-top-header">
+						<button type="button" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu-top-header__list menu__list">
+								<li class="menu-top-header__item menu__item">
+									<a class="menu-top-header__link menu__link" href="#">
+										<span>О компании</span>
+									</a>
+								</li>
+								<li class="menu-top-header__item menu__item">
+									<a class="menu-top-header__link menu__link" href="#">
+										<span>Преимущества</span>
+									</a>
+								</li>
+								<li class="menu-top-header__item menu__item">
+									<a class="menu-top-header__link menu__link" href="#">
+										<span>Акционные товары</span>
+									</a>
+								</li>
+								<li class="menu-top-header__item menu__item">
+									<a class="menu-top-header__link menu__link _icon-user" data-popup="#login" href="#">
+										<span>Войти в аккаунт</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="header__body body-header">
+				<div class="body-header__container">
+					<div class="body-header__info">
+						<a class="body-header__logo logo" href="#">
+							<picture><source srcset="img/header/logo/logo.webp" type="image/webp"><img src="img/header/logo/logo.png" alt="Логотип" /></picture>
+						</a>
+						<ul class="body-header__list" data-da=".body-header__container,885.98,first">
+							<li class="body-header__item">
+								<a class="body-header__link body-header__link_one" href="#">
+									<span>Бесплатная доставка</span>
+								</a>
+							</li>
+							<li class="body-header__item">
+								<a class="body-header__link body-header__link_two" href="#">
+									<span>Скидка при оплате на сайте</span>
+								</a>
+							</li>
+							<li class="body-header__item">
+								<a class="body-header__link body-header__link_three" href="#">
+									<span>Защита покупателей</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="body-header__contacts" data-da=".body-header__info,885.98,last">
+						<ul class="body-header__social-list">
+							<li class="body-header__social-item">
+								<a class="body-header__social-link" href="#">
+									<picture><source srcset="img/header/socials/telegram.webp" type="image/webp"><img class="body-header__img" src="img/header/socials/telegram.png" alt="Telegram" /></picture>
+								</a>
+							</li>
+							<li class="body-header__social-item">
+								<a class="body-header__social-link" href="#">
+									<picture><source srcset="img/header/socials/whatsup.webp" type="image/webp"><img class="body-header__img" src="img/header/socials/whatsup.png" alt="Whatsup" /></picture>
+								</a>
+							</li>
+							<li class="body-header__social-item">
+								<a class="body-header__social-link" href="#">
+									<picture><source srcset="img/header/socials/messenger.webp" type="image/webp"><img class="body-header__img" src="img/header/socials/messenger.png" alt="Messenger" /></picture>
+								</a>
+							</li>
+						</ul>
+						<div class="body-header__calls calls-body">
+							<a class="calls-body__call" href="tel:89164601960">
+								<span>+8 916 460-19-60</span>
+							</a>
+							<a class="calls-body__phone _icon-phone" href="#">
+								<span>Заказать звонок</span>
+							</a>
+						</div>
+					</div>
+					<div data-spollers class="body-header__spollers cart-spollers" data-da=".body-header__list,1199.98,last">
+						<div class="spollers__item">
+							<div data-spoller class="spollers__title">
+								<div class="body-header__cart cart-header">
+									<div class="cart-header__body">
+										<div class="cart-header__label">Ваша корзина</div>
+										<div class="cart-header__summ"><span>1680</span> руб.</div>
+									</div>
+									<div class="cart-header__icon _icon-cart">
+										<span>5</span>
+									</div>
+								</div>
+							</div>
+							<div class="cart-spollers__body body-cart">
+								<div class="body-cart__header">
+									<div class="body-cart__title">
+										Корзина (<span class="body-cart__value">5</span>)
+									</div>
+								</div>
+								<div class="body-cart__body">
+									<div class="body-cart__item item-body-cart">
+										<div class="item-body-cart__image">
+											<picture><source srcset="img/header/cart/01.webp" type="image/webp"><img src="img/header/cart/01.jpg" alt="Форма для твердого сыра" /></picture>
+										</div>
+										<div class="item-body-cart__content">
+											<div class="item-body-cart__header">
+												<div class="item-body-cart__text">
+													Форма для твердого сыра 1 кг - 40 отверстий
+												</div>
+												<button type="submit" class="item-body-cart__button"></button>
+											</div>
+											<div class="item-body-cart__counters">
+												<div class="item-body-cart__quantity quantity">
+													<div class="quantity__button quantity__button_minus"></div>
+													<div class="quantity__input">
+														<input autocomplete="off" type="text" name="form[]" value="1" />
+													</div>
+													<div class="quantity__button quantity__button_plus"></div>
+												</div>
+												<div class="item-body-cart__price">
+													440 <span>руб.</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="body-cart__item item-body-cart">
+										<div class="item-body-cart__image">
+											<picture><source srcset="img/header/cart/02.webp" type="image/webp"><img src="img/header/cart/02.jpg" alt="Универсальная бумага для сыра" /></picture>
+										</div>
+										<div class="item-body-cart__content">
+											<div class="item-body-cart__header">
+												<div class="item-body-cart__text">
+													Универсальная бумага для сыра, 10 шт
+												</div>
+												<button type="submit" class="item-body-cart__button"></button>
+											</div>
+											<div class="item-body-cart__counters">
+												<div class="item-body-cart__quantity quantity">
+													<div class="quantity__button quantity__button_minus"></div>
+													<div class="quantity__input">
+														<input autocomplete="off" type="text" name="form[]" value="1" />
+													</div>
+													<div class="quantity__button quantity__button_plus"></div>
+												</div>
+												<div class="item-body-cart__price">
+													1240<span>руб.</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="body-cart__footer footer-cart">
+									<div class="footer-cart__item">
+										<div class="footer-cart__text">Товаров в корзине:</div>
+										<div class="footer-cart__number"><span>5</span>шт.</div>
+									</div>
+									<div class="footer-cart__item">
+										<div class="footer-cart__text">Общая стоимость:</div>
+										<div class="footer-cart__number"><span>1249</span>руб.</div>
+									</div>
+									<button class="footer-cart__button button" type="submit">
+										<span>Оформить заказ</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container">
+					<div class="bottom-header__info info-bottom">
+						<ul class="info-bottom__list">
+							<li class="info-bottom__item">
+								<div data-spollers class="info-bottom__spollers spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller class="spollers__title _icon-arrow-down">
+											Рецепты
+										</button>
+										<div class="spollers__body">
+											<ul class="spollers__list">
+												<li class="spollers__item">
+													<a class="spollers__link" href="#"> Молодые сыры</a>
+												</li>
+												<li class="spollers__item">
+													<a class="spollers__link" href="#">Полутвердые сыры</a>
+												</li>
+												<li class="spollers__item">
+													<a class="spollers__link" href="#">Паста Филата</a>
+												</li>
+												<li class="spollers__item">
+													<a class="spollers__link" href="#">Сывороточные сыры</a>
+												</li>
+												<li class="spollers__item">
+													<a class="spollers__link" href="#">Твердые сыры</a>
+												</li>
+												<li class="spollers__item">
+													<a class="spollers__link" href="#">Творожные сыры</a>
+												</li>
+												<li class="spollers__item">
+													<a class="spollers__link" href="#">Кисломолочные продукты</a>
+												</li>
+												<li class="spollers__item">
+													<a class="spollers__link" href="#">Все рецепты</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="info-bottom__item">
+								<a href="#" class="info-bottom__link"><span>Доставка и оплата</span></a>
+							</li>
+							<li class="info-bottom__item">
+								<a href="#" class="info-bottom__link"><span>Калькулятор Сыродела</span></a>
+							</li>
+							<li class="info-bottom__item">
+								<a href="#" class="info-bottom__link"><span>Отзывы</span></a>
+							</li>
+							<li class="info-bottom__item">
+								<a href="#" class="info-bottom__link"><span>Вопросы и ответы</span></a>
+							</li>
+							<li class="info-bottom__item">
+								<a href="#" class="info-bottom__link"><span>Контакты</span></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bottom-header__search search-bottom">
+						<form class="search-bottom__form" action="#">
+							<button class="btn _icon-search" type="submit"></button>
+							<input class="input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Введите название товара или артикул" />
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<div class="page__breadcrumbs breadcrumbs-page">
+				<div class="breadcrumbs-page__container">
+					<nav class="breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a class="breadcrumbs__link" href="#">Главная</a>
+							</li>
+							<li class="breadcrumbs__item">
+								<div class="breadcrumbs__current breadcrumbs__current_last">
+									Личный кабинет
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<section class="page__personal personal-page">
+				<div class="personal-page__container">
+					<h2 class="personal-page__title title">Личный кабинет</h2>
+
+					<div data-tabs class="personal-page__content content-personal-page tabs">
+						<nav data-tabs-titles class="tabs__navigation">
+							<button class="tabs__title _icon-user _tab-active" type="button">
+								Мой профиль
+							</button>
+							<button class="tabs__title _icon-password" type="button">
+								Мои заказы
+							</button>
+							<button class="tabs__title _icon-heart" type="button">
+								Избранные товары
+							</button>
+							<button class="tabs__title _icon-coupon" type="button">
+								Мои купоны
+							</button>
+							<button class="tabs__title _icon-direction" type="button">
+								Адрес доставки
+							</button>
+							<button class="tabs__title _icon-password" type="button">
+								Сменить пароль
+							</button>
+							<button class="tabs__title _icon-entrance" type="button">Выход</button>
+						</nav>
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__body">
+								<div class="tabs__header flex">
+									<h3 class="tabs__subtitle">Kristina Anfalova</h3>
+									<a class="tabs__edit" href="#">Редактировать информацию</a>
+								</div>
+								<ul class="tabs__list list-tabs">
+									<li class="list-tabs__item">
+										<span>Телефон:</span>
+										<a class="list-tabs__link" href="tel:+73806646124">+7 (380) 664-61-24</a>
+									</li>
+									<li class="list-tabs__item">
+										<span>Email:</span>
+										<a class="list-tabs__link" href="mailto:saraconet@gmail.com">saraconet@gmail.com</a>
+									</li>
+									<li class="list-tabs__item">
+										<span>Адрес доставки:</span>
+										<a class="list-tabs__link" href="https://goo.gl/maps/AoLPL67fuHHDh1FE7" target="_blank">
+											123333, Российская Федерация, Карачаево-Черкеcсия,<br />
+											Kharkov, Московская 4 кв.4</a>
+									</li>
+								</ul>
+							</div>
+							<div class="tabs__body">
+								<div class="tabs__header">
+									<h3 class="tabs__subtitle">Мои заказы</h3>
+									<span class="tabs__subtitle-litle">Список ваших прошлыx покупок</span>
+								</div>
+								<div class="tabs__wrapper">
+									<table class="tabs__table table-tabs">
+										<thead class="table-tabs__thead">
+											<tr>
+												<th class="table-tabs__th"><span>Товар</span></th>
+												<th class="table-tabs__th"><span>Стоимость</span></th>
+												<th class="table-tabs__th"><span>Количество</span></th>
+												<th class="table-tabs__th"><span>Итого</span></th>
+											</tr>
+										</thead>
+										<tbody class="table-tabs__tbody">
+											<tr class="table-tabs__tr">
+												<td class="table-tabs__td td-table-tabs">
+													<div class="td-table-tabs__image-ibg">
+														<picture><source data-srcset="img/products/card/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/products/card/01.jpg" alt="Кардамон молотый 50 г" /></picture>
+													</div>
+													<div class="td-table-tabs__content">
+														<div class="td-table-tabs__title">
+															Кардамон молотый 50 г
+														</div>
+														<div class="td-table-tabs__code">Код товара: 323432</div>
+													</div>
+												</td>
+												<td class="table-tabs__td td-table-tabs">
+													<div class="td-table-tabs__price _icon-rub">300</div>
+												</td>
+												<td class="table-tabs__td td-table-tabs">
+													<div class="td-table-tabs__amount">2 шт.</div>
+												</td>
+												<td class="table-tabs__td td-table-tabs">
+													<div class="td-table-tabs__wrapper">
+														<div class="td-table-tabs__price _icon-rub">600</div>
+														<button class="td-table-tabs__button button" type="button">
+															<span>Добавить</span>
+														</button>
+													</div>
+												</td>
+											</tr>
+											<tr class="table-tabs__tr">
+												<td class="table-tabs__td td-table-tabs">
+													<div class="td-table-tabs__image-ibg">
+														<picture><source data-srcset="img/products/card/10.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/products/card/10.jpg" alt="Форма для твердого сыра 1 кг - 40 отверстий" /></picture>
+													</div>
+													<div class="td-table-tabs__content">
+														<div class="td-table-tabs__title">
+															Форма для твердого сыра 1 кг - 40 отверстий
+														</div>
+														<div class="td-table-tabs__code">Код товара: 323432</div>
+													</div>
+												</td>
+												<td class="table-tabs__td td-table-tabs">
+													<div class="td-table-tabs__price _icon-rub">1800</div>
+												</td>
+												<td class="table-tabs__td td-table-tabs">
+													<div class="td-table-tabs__amount">1 шт.</div>
+												</td>
+												<td class="table-tabs__td td-table-tabs">
+													<div class="td-table-tabs__wrapper">
+														<div class="td-table-tabs__price _icon-rub">1800</div>
+														<button class="td-table-tabs__button button" type="button">
+															<span>Добавить</span>
+														</button>
+													</div>
+												</td>
+											</tr>
+											<tr class="table-tabs__tr">
+												<td class="table-tabs__td td-table-tabs">
+													<div class="td-table-tabs__image-ibg">
+														<picture><source data-srcset="img/products/card/11.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/products/card/11.jpg" alt="Мезофильная закваска MA 19 (50 DCU)" /></picture>
+													</div>
+													<div class="td-table-tabs__content">
+														<div class="td-table-tabs__title">
+															Мезофильная закваска MA 19 (50 DCU)
+														</div>
+														<div class="td-table-tabs__code">Код товара: 323434</div>
+													</div>
+												</td>
+												<td class="table-tabs__td td-table-tabs">
+													<div class="td-table-tabs__price _icon-rub">950</div>
+												</td>
+												<td class="table-tabs__td td-table-tabs">
+													<div class="td-table-tabs__amount">1 шт.</div>
+												</td>
+												<td class="table-tabs__td td-table-tabs">
+													<div class="td-table-tabs__wrapper">
+														<div class="td-table-tabs__price _icon-rub">950</div>
+														<button class="td-table-tabs__button button" type="button">
+															<span>Добавить</span>
+														</button>
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="tabs__header">
+									<h3 class="tabs__subtitle">Избранные товары</h3>
+									<span class="tabs__subtitle-litle">Товары, которые вы добавили в список будуших покупок</span>
+								</div>
+								<div class="tabs__grid grid-tabs">
+									<article class="product-card">
+										<div class="product-card__content">
+											<div class="product-card__header">
+												<div class="product-card__status avilible">
+													<span>В наличии</span>
+												</div>
+												<button class="product-card__heart _icon-heart-full" type="button"></button>
+											</div>
+											<div class="product-card__slider swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+												<div class="product-card__wrapper swiper-wrapper" style="
+                      transform: translate3d(-534px, 0px, 0px);
+                      transition-duration: 0ms;
+                    ">
+													<div class="product-card__slide swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="1" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/02.webp" type="image/webp"><img src="img/products/card/02.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+													<div class="product-card__slide swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/01.webp" type="image/webp"><img src="img/products/card/01.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+													<div class="product-card__slide swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/02.webp" type="image/webp"><img src="img/products/card/02.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+													<div class="product-card__slide swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/01.webp" type="image/webp"><img src="img/products/card/01.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+												</div>
+												<div class="product-card__dotts swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+													<span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span>
+												</div>
+											</div>
+											<h3 class="product-card__title">
+												Мезофильная закваска Danisco <span>CHOOZIT MM...</span>
+											</h3>
+										</div>
+										<div class="product-card__footer">
+											<div class="product-card__prices">
+												<div class="product-card__price">
+													1300 <span class="_icon-rub">/1шт.</span>
+												</div>
+												<div class="product-card__price-old">
+													1800 <span class="_icon-rub"></span>
+												</div>
+											</div>
+											<button class="product-card__button button" type="submit">
+												<span>Добавить</span>
+											</button>
+										</div>
+									</article>
+									<article class="product-card">
+										<div class="product-card__content">
+											<div class="product-card__header">
+												<div class="product-card__status not-avilible">
+													<span>Нет в наличии</span>
+												</div>
+												<button class="product-card__heart _icon-heart-full" type="button"></button>
+											</div>
+											<div class="product-card__slider swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+												<div class="product-card__wrapper swiper-wrapper" style="
+                      transform: translate3d(-534px, 0px, 0px);
+                      transition-duration: 0ms;
+                    ">
+													<div class="product-card__slide swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="1" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/04.webp" type="image/webp"><img src="img/products/card/04.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+													<div class="product-card__slide swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/03.webp" type="image/webp"><img src="img/products/card/03.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+													<div class="product-card__slide swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/04.webp" type="image/webp"><img src="img/products/card/04.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+													<div class="product-card__slide swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/03.webp" type="image/webp"><img src="img/products/card/03.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+												</div>
+												<div class="product-card__dotts swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+													<span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span>
+												</div>
+											</div>
+											<h3 class="product-card__title">
+												Душистый перец горошком (100г)
+											</h3>
+										</div>
+										<div class="product-card__footer">
+											<div class="product-card__prices">
+												<div class="product-card__price">
+													200 <span class="_icon-rub">/1шт.</span>
+												</div>
+												<div class="product-card__price-old">
+													320 <span class="_icon-rub"></span>
+												</div>
+											</div>
+											<button class="product-card__button button not-avilible" type="submit">
+												<span>Добавить</span>
+											</button>
+										</div>
+									</article>
+									<article class="product-card">
+										<div class="product-card__content">
+											<div class="product-card__header">
+												<div class="product-card__status avilible">
+													<span>В наличии</span>
+												</div>
+												<button class="product-card__heart _icon-heart-full" type="button"></button>
+											</div>
+											<div class="product-card__slider swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+												<div class="product-card__wrapper swiper-wrapper" style="
+                      transform: translate3d(-356px, 0px, 0px);
+                      transition-duration: 0ms;
+                    ">
+													<div class="product-card__slide swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/06.webp" type="image/webp"><img src="img/products/card/06.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+													<div class="product-card__slide swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/05.webp" type="image/webp"><img src="img/products/card/05.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+													<div class="product-card__slide swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/06.webp" type="image/webp"><img src="img/products/card/06.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+													<div class="product-card__slide swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/05.webp" type="image/webp"><img src="img/products/card/05.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+												</div>
+												<div class="product-card__dotts swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+													<span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+												</div>
+											</div>
+											<h3 class="product-card__title">
+												Красный перец молотый (100г)
+											</h3>
+										</div>
+										<div class="product-card__footer">
+											<div class="product-card__prices">
+												<div class="product-card__price">
+													380 <span class="_icon-rub">/1шт.</span>
+												</div>
+												<div class="product-card__price-old">
+													400 <span class="_icon-rub"></span>
+												</div>
+											</div>
+											<button class="product-card__button button" type="submit">
+												<span>Добавить</span>
+											</button>
+										</div>
+									</article>
+									<article class="product-card">
+										<div class="product-card__content">
+											<div class="product-card__header">
+												<div class="product-card__status avilible">
+													<span>В наличии</span>
+												</div>
+												<button class="product-card__heart _icon-heart-full" type="button"></button>
+											</div>
+											<div class="product-card__slider swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+												<div class="product-card__wrapper swiper-wrapper" style="
+                      transform: translate3d(-356px, 0px, 0px);
+                      transition-duration: 800ms;
+                    ">
+													<div class="product-card__slide swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/08.webp" type="image/webp"><img src="img/products/card/08.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+													<div class="product-card__slide swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/07.webp" type="image/webp"><img src="img/products/card/07.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+													<div class="product-card__slide swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/08.webp" type="image/webp"><img src="img/products/card/08.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+													<div class="product-card__slide swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 178px">
+														<a class="product-card__image" href="#">
+															<span class="product-card__item-image-ibg product-card__item-image-ibg_contain">
+																<picture><source srcset="img/products/card/07.webp" type="image/webp"><img src="img/products/card/07.jpg" alt="Мезофильная закваска" /></picture>
+															</span>
+														</a>
+													</div>
+												</div>
+												<div class="product-card__dotts swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+													<span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+												</div>
+											</div>
+											<h3 class="product-card__title">
+												Мускатный орех молотый (100г)
+											</h3>
+										</div>
+										<div class="product-card__footer">
+											<div class="product-card__prices">
+												<div class="product-card__price">
+													420 <span class="_icon-rub">/1шт.</span>
+												</div>
+												<div class="product-card__price-old">
+													560 <span class="_icon-rub"></span>
+												</div>
+											</div>
+											<button class="product-card__button button" type="submit">
+												<span>Добавить</span>
+											</button>
+										</div>
+									</article>
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="tabs__coupons">
+									<div class="tabs__coupon coupon-tabs">
+										<div class="coupon-tabs__status">
+											<div class="coupon-tabs__image-ibg">
+												<picture><source data-srcset="img/personal/coupon-300.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/personal/coupon-300.jpg" alt="Купон на скидку" /></picture>
+											</div>
+											<div class="coupon-tabs__content">
+												<div class="coupon-tabs__stat coupon-tabs__stat_act">
+													Активный
+												</div>
+												<div class="coupon-tabs__discounts">
+													Скидочный купон на 300 руб.
+												</div>
+												<div class="coupon-tabs__date">До 20 июня 2021 г.</div>
+											</div>
+										</div>
+										<div class="coupon-tabs__copy">
+											<div class="coupon-tabs__number">№1234556</div>
+											<button class="coupon-tabs__code" type="button">
+												<span>Скопировать код</span>
+											</button>
+										</div>
+									</div>
+									<div class="tabs__coupon coupon-tabs">
+										<div class="coupon-tabs__status">
+											<div class="coupon-tabs__image-ibg">
+												<picture><source data-srcset="img/personal/coupon-800.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/personal/coupon-800.jpg" alt="Купон на скидку" /></picture>
+											</div>
+											<div class="coupon-tabs__content">
+												<div class="coupon-tabs__stat coupon-tabs__stat_act">
+													Активный
+												</div>
+												<div class="coupon-tabs__discounts">
+													Скидочный купон на 800 руб.
+												</div>
+												<div class="coupon-tabs__date">До 15 июня 2022 г.</div>
+											</div>
+										</div>
+										<div class="coupon-tabs__copy">
+											<div class="coupon-tabs__number">№1234556</div>
+											<button class="coupon-tabs__code" type="button">
+												<span>Скопировать код</span>
+											</button>
+										</div>
+									</div>
+									<div class="tabs__coupon coupon-tabs">
+										<div class="coupon-tabs__status">
+											<div class="coupon-tabs__image-ibg">
+												<picture><source data-srcset="img/personal/coupon-non-active.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/personal/coupon-non-active.jpg" alt="Купон на скидку" /></picture>
+											</div>
+											<div class="coupon-tabs__content">
+												<div class="coupon-tabs__stat coupon-tabs__stat_no-act">
+													Не активный
+												</div>
+												<div class="coupon-tabs__discounts">
+													Скидочный купон на 500 руб.
+												</div>
+												<div class="coupon-tabs__date">Срок действия закончился</div>
+											</div>
+										</div>
+										<div class="coupon-tabs__copy">
+											<div class="coupon-tabs__number">№1234556</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="tabs__header flex">
+									<h3 class="tabs__subtitle">Kristina Anfalova</h3>
+									<a class="tabs__edit" href="#">Редактировать информацию</a>
+								</div>
+								<ul class="tabs__list list-tabs">
+									<li class="list-tabs__item">
+										<span>Адрес доставки:</span>
+										<a class="list-tabs__link" href="https://goo.gl/maps/AoLPL67fuHHDh1FE7" target="_blank">
+											Московская 4 кв.4</a>
+									</li>
+									<li class="list-tabs__item">
+										<span>Город</span>
+										<a class="list-tabs__link" href="#"> Kharkov 123333 </a>
+									</li>
+									<li class="list-tabs__item">
+										<span>Регион</span>
+										<a class="list-tabs__link" href="mailto:saraconet@gmail.com">Карачаево-Черкеcсия</a>
+									</li>
+									<li class="list-tabs__item">
+										<span>Страна</span>
+										<a class="list-tabs__link" href="mailto:saraconet@gmail.com">Российская Федерация</a>
+									</li>
+								</ul>
+							</div>
+							<div class="tabs__body">
+								<div class="tabs__header">
+									<h3 class="tabs__subtitle">Сменить пароль</h3>
+									<span class="tabs__subtitle-litle">После смены пароля мы пришлем подтверждение на ваш электронный
+										адрес</span>
+								</div>
+								<form class="tabs__form form-tabs" action="#">
+									<div class="form-tabs__wrapper">
+										<div class="form-tabs__inputs">
+											<label for="form-tabs-input" class="form-tabs__label">Старый пароль</label>
+											<input class="form-tabs__input input" id="form-tabs-input" autocomplete="off" data-required type="password" name="form[]" data-error="Введите свой старый пароль" placeholder="Введите старый пароль" />
+										</div>
+										<div class="form-tabs__inputs">
+											<label for="form-tabs-input-1" class="form-tabs__label">Новый пароль</label>
+											<input class="form-tabs__input input" id="form-tabs-input-1" autocomplete="off" data-required type="password" name="form[]" data-error="Введите свой новый пароль" placeholder="Не менее 8 символов" />
+										</div>
+									</div>
+									<button class="form-tabs__button button" type="submit">
+										<span>Подтвердить</span>
+									</button>
+								</form>
+							</div>
+							<div class="tabs__body">
+								<div class="tabs__header">
+									<h3 class="tabs__subtitle">Выход из системы</h3>
+									<span class="tabs__subtitle-litle">Вы вышли из системы! Для дальнейших дейсвий нужно зайти в
+										систему.</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body body-footer">
+					<div class="body-footer__item item-body-footer">
+						<a class="footer__logo" href="#">
+							<picture><source srcset="img/footer/logo/footer-logo.webp" type="image/webp"><img src="img/footer/logo/footer-logo.png" alt="Логотип" /></picture>
+						</a>
+						<div class="item-body-footer__text">
+							<p>
+								Все материалы данного сайта являются объектами авторского права.
+							</p>
+						</div>
+						<div class="item-body-footer__development">Разработка сайта: ЛяЧиз</div>
+					</div>
+					<div class="body-footer__item item-body-footer">
+						<div data-spollers="451" class="item-body-footer__spollers spollers">
+							<div class="spollers__item">
+								<button class="item-body-footer__title" type="button" data-spoller>
+									Компания
+								</button>
+								<div class="spollers__body">
+									<ul class="item-body-footer__list">
+										<li class="item-body-footer__point">
+											<a class="item-body-footer__link" href="#"><span>О компании </span>
+											</a>
+										</li>
+										<li class="item-body-footer__point">
+											<a class="item-body-footer__link" href="#">
+												<span>Акции и скидки</span></a>
+										</li>
+										<li class="item-body-footer__point">
+											<a class="item-body-footer__link" href="#">
+												<span>Доставка и оплата</span></a>
+										</li>
+										<li class="item-body-footer__point">
+											<a class="item-body-footer__link" href="#">
+												<span>Отзывы</span></a>
+										</li>
+										<li class="item-body-footer__point">
+											<a class="item-body-footer__link" href="#"><span>Гарантия и возврат</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="body-footer__item item-body-footer">
+						<div data-spollers="451" class="item-body-footer__spollers spollers">
+							<div class="spollers__item">
+								<button class="item-body-footer__title" type="button" data-spoller>
+									Поддержка
+								</button>
+								<div class="spollers__body">
+									<ul class="item-body-footer__list">
+										<li class="item-body-footer__point">
+											<a class="item-body-footer__link" href="#"><span>Вопрос-ответ</span>
+											</a>
+										</li>
+										<li class="item-body-footer__point">
+											<a class="item-body-footer__link" href="#">
+												<span>Бонусная программа</span></a>
+										</li>
+										<li class="item-body-footer__point">
+											<a class="item-body-footer__link" href="#">
+												<span>Политика конфиденциальности</span></a>
+										</li>
+										<li class="item-body-footer__point">
+											<a class="item-body-footer__link" href="#">
+												<span>Персональные данных</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="body-footer__item item-body-footer">
+						<div data-spollers="451" class="item-body-footer__spollers spollers">
+							<div class="spollers__item">
+								<button class="item-body-footer__title" type="button" data-spoller>
+									Способы оплаты
+								</button>
+								<div class="spollers__body">
+									<ul class="item-body-footer__pay-list pay-list-footer">
+										<li class="pay-list-footer_item">
+											<a class="pay-list-footer__link" href="#">
+												<picture><source srcset="img/footer/pay-icons/01.webp" type="image/webp"><img class="pay-list-footer__img" src="img/footer/pay-icons/01.png" alt="Знак рубля" /></picture>
+											</a>
+										</li>
+										<li class="pay-list-footer_item">
+											<a class="pay-list-footer__link" href="#">
+												<picture><source srcset="img/footer/pay-icons/02.webp" type="image/webp"><img class="pay-list-footer__img" src="img/footer/pay-icons/02.png" alt="знак " /></picture>
+											</a>
+										</li>
+										<li class="pay-list-footer_item">
+											<a class="pay-list-footer__link" href="#">
+												<picture><source srcset="img/footer/pay-icons/03.webp" type="image/webp"><img class="pay-list-footer__img" src="img/footer/pay-icons/03.png" alt="знак" /></picture>
+											</a>
+										</li>
+										<li class="pay-list-footer_item">
+											<a class="pay-list-footer__link" href="#">
+												<picture><source srcset="img/footer/pay-icons/04.webp" type="image/webp"><img class="pay-list-footer__img" src="img/footer/pay-icons/04.png" alt="значек кредитки" /></picture>
+											</a>
+										</li>
+										<li class="pay-list-footer_item">
+											<a class="pay-list-footer__link" href="#">
+												<picture><source srcset="img/footer/pay-icons/05.webp" type="image/webp"><img class="pay-list-footer__img" src="img/footer/pay-icons/05.png" alt="знак master-card" /></picture>
+											</a>
+										</li>
+										<li class="pay-list-footer_item">
+											<a class="pay-list-footer__link" href="#">
+												<picture><source srcset="img/footer/pay-icons/06.webp" type="image/webp"><img class="pay-list-footer__img" src="img/footer/pay-icons/06.png" alt="знак visa" /></picture>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="body-footer__item item-body-footer">
+						<div class="item-body-footer__title">
+							<a class="item-body-footer__tel" href="tel:74951200000">
+								<span>+7 495 120-00-00</span></a>
+						</div>
+						<a class="item-body-footer__sheldue _icon-clock" href="#"><span>Пн-пт 9:00 - 19:00</span></a>
+
+						<a class="item-body-footer__location _icon-location" href="https://goo.gl/maps/MxeoU9PcHjHm4pcN8" target="_blank"><span>г. Москва, улица Свободы 1/7</span></a>
+						<ul class="item-body-footer__social-list">
+							<li class="item-body-footer__social-item">
+								<a class="item-body-footer__social-link _icon-instagram" href="#"></a>
+							</li>
+							<li class="item-body-footer__social-item">
+								<a class="item-body-footer__social-link _icon-vk" href="#"></a>
+							</li>
+							<li class="item-body-footer__social-item">
+								<a class="item-body-footer__social-link _icon-twitter" href="#"></a>
+							</li>
+							<li class="item-body-footer__social-item">
+								<a class="item-body-footer__social-link _icon-fasebook" href="#"></a>
+							</li>
+							<li class="item-body-footer__social-item">
+								<a class="item-body-footer__social-link _icon-youtube" href="#"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<div id="login" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__header">
+					<div class="popup__title">Вход в аккаунт</div>
+					<button data-close type="button" class="popup__close _icon-close"></button>
+				</div>
+				<form class="popup__form" action="#">
+					<div class="popup__line">
+						<label class="popup__label" for="subscribe-input">Email адрес:</label>
+						<input autocomplete="off" type="email" id="subscribe-input" data-required="email" name="form[]" data-error="Заполните email правильно" placeholder="yourname@mail.com" class="popup__input" />
+					</div>
+					<div class="popup__line">
+						<label class="popup__label" for="subscribe-password">Пароль:</label>
+						<input autocomplete="off" type="text" id="subscribe-password" data-required name="form[]" data-error="Заполните ваш пароль" placeholder="Ваш пароль" class="popup__input" />
+					</div>
+					<div class="popup__line">
+						<button class="popup__button button" type="submit">
+							<span>Войти</span>
+						</button>
+					</div>
+					<div class="popup__line">
+						<a class="popup__link" data-popup="#fogot" href="#">Забыли пароль?</a>
+					</div>
+				</form>
+				<div class="popup__footer">
+					<div class="popup__wrapp">
+						<div class="popup__question">У вас нет профиля?</div>
+						<a class="popup__link" href="#" data-popup="#registration">Создайте аккаунт</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fogot" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__header">
+					<div class="popup__title">Восстановить пароль</div>
+					<button data-close type="button" class="popup__close _icon-close"></button>
+				</div>
+				<form class="popup__form" action="#">
+					<div class="popup__line">
+						<p>
+							Введите адрес электронной почты Вашей учетной записи. Нажмите кнопку
+							продолжить, чтобы получить пароль по электронной почте.
+						</p>
+					</div>
+					<div class="popup__line">
+						<label class="popup__label" for="subscribe-input-1">Email адрес:</label>
+						<input autocomplete="off" type="email" id="subscribe-input-1" data-required="email" name="form[]" data-error="Заполните email правильно" placeholder="yourname@mail.com" class="popup__input" />
+					</div>
+					<div class="popup__line">
+						<button class="popup__button button" type="submit">
+							<span>Продолжить</span>
+						</button>
+					</div>
+				</form>
+				<div class="popup__footer">
+					<div class="popup__wrapp">
+						<div class="popup__question">У вас нет профиля?</div>
+						<a class="popup__link" href="#" data-popup="#registration">Создайте аккаунт</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="registration" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__header">
+					<div class="popup__title">Регистрация</div>
+					<button data-close type="button" class="popup__close _icon-close"></button>
+				</div>
+				<form class="popup__form" action="#">
+					<div class="popup__line">
+						<label class="popup__label" for="subscribe-input-2">Ваше имя и фамилия:</label>
+						<input autocomplete="off" type="text" id="subscribe-input-2" data-required name="form[]" data-error="Заполните ваши ФИО" placeholder="Владимир Иванов" class="popup__input" />
+					</div>
+					<div class="popup__line">
+						<label class="popup__label" for="subscribe-input-3">Email адрес:</label>
+						<input autocomplete="off" type="email" id="subscribe-input-3" data-required="email" name="form[]" data-error="Заполните email правильно" placeholder="yourname@mail.com" class="popup__input" />
+					</div>
+					<div class="popup__line">
+						<label class="popup__label" for="subscribe-password-2">Ваш пароль для входа:</label>
+						<input autocomplete="off" type="password" id="subscribe-password-2" data-required name="form[]" data-error="Введите ваш пароль" placeholder="Содержит 8 и более символов" class="popup__input" />
+					</div>
+					<div class="popup__line">
+						<label class="popup__label" for="subscribe-password-4">Подтвердите пароль:</label>
+						<input autocomplete="off" type="password" id="subscribe-password-4" data-required name="form[]" data-error="Повторите ваш пароль" placeholder="Повторите ваш пароль" class="popup__input" />
+					</div>
+					<div class="popup__line">
+						<div class="checkbox">
+							<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+							<label for="c_1" class="checkbox__label"><span class="checkbox__text">Получать письма с новостями и акциями</span></label>
+						</div>
+					</div>
+					<div class="popup__line">
+						<div class="checkbox">
+							<input id="c_2" data-required data-error="Нужно согласится с условиями" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+							<label for="c_2" class="checkbox__label"><span class="checkbox__text">Я прочитал и соглашаюсь с условиями
+								</span>
+							</label>
+							<a class="checkbox__link" href="#"> Политики конфиденциальности</a>
+						</div>
+					</div>
+					<div class="popup__line">
+						<button class="popup__button button" type="submit">
+							<span>Создать аккаунт</span>
+						</button>
+					</div>
+					<div class="popup__line">
+						<a class="popup__link" data-popup="#fogot" href="#">Забыли пароль?</a>
+					</div>
+				</form>
+				<div class="popup__footer">
+					<div class="popup__wrapp">
+						<div class="popup__question">У вас есть профиль?</div>
+						<a class="popup__link" data-popup="#login" href="#">Войти в аккаунт</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+	  <div class="popup__content">
+		 <button data-close type="button" class="popup__close">Закрыть</button>
+		 <div class="popup__text"></div>
+	  </div>
+	</div>
+ </div> -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js?_v=20220719165630"></script>
+	<script src="https://maps.google.com/maps/api/js?sensor=false&amp;key=&_v=20220719165630"></script>
+	<script src="js/app.min.js?_v=20220719165630"></script>
+
+</body>
+
+</html>
