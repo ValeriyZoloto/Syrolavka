@@ -1934,83 +1934,30 @@ body::after {
 .body-header__link {
   display: flex;
   align-items: center;
+  column-gap: 0.5rem;
   min-height: 1.75rem;
   position: relative;
-  padding-left: 2.25rem;
+  transition: all 0.5s ease 0s;
+}
+@media (any-hover: hover) {
+  .body-header__link:hover img {
+    transform: scale(1.1, 1.1);
+  }
+  .body-header__link:hover span {
+    color: #fd9339;
+  }
+}
+.body-header__link img {
+  transition: all 0.5s ease 0s;
 }
 @media (max-width: 47.99875em) {
-  .body-header__link {
-    padding-left: 0rem;
+  .body-header__link img {
+    display: none;
   }
 }
 @media (max-width: 29.99875em) {
-  .body-header__link {
-    padding-left: 2.25rem;
-  }
-}
-.body-header__link::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 1.75rem;
-  height: 1.75rem;
-}
-.body-header__link_one {
-  max-width: 7.25rem;
-  background: url("../img/header/icons/credit-card.png") 0 0 no-repeat;
-}
-@media (max-width: 75em) {
-  .body-header__link_one {
-    max-width: 100%;
-  }
-}
-@media (max-width: 47.99875em) {
-  .body-header__link_one {
-    background: none;
-  }
-}
-@media (max-width: 29.99875em) {
-  .body-header__link_one {
-    background: url("../img/header/icons/credit-card.png") 0 0 no-repeat;
-  }
-}
-.body-header__link_two {
-  max-width: 8.5rem;
-  background: url("../img/header/icons/delivery.png") 0 0 no-repeat;
-}
-@media (max-width: 75em) {
-  .body-header__link_two {
-    max-width: 100%;
-  }
-}
-@media (max-width: 47.99875em) {
-  .body-header__link_two {
-    background: none;
-  }
-}
-@media (max-width: 29.99875em) {
-  .body-header__link_two {
-    background: url("../img/header/icons/delivery.png") 0 0 no-repeat;
-  }
-}
-.body-header__link_three {
-  max-width: 7.25rem;
-  background: url("../img/header/icons/user-protection.png") 0 0 no-repeat;
-}
-@media (max-width: 75em) {
-  .body-header__link_three {
-    max-width: 100%;
-  }
-}
-@media (max-width: 47.99875em) {
-  .body-header__link_three {
-    background: none;
-  }
-}
-@media (max-width: 29.99875em) {
-  .body-header__link_three {
-    background: url("../img/header/icons/user-protection.png") 0 0 no-repeat;
+  .body-header__link img {
+    display: block;
   }
 }
 .body-header__link span {
@@ -2035,11 +1982,6 @@ body::after {
 @media (max-width: 29.99875em) {
   .body-header__link span {
     font-size: 1.125rem;
-  }
-}
-@media (any-hover: hover) {
-  .body-header__link span:hover {
-    color: #fd9339;
   }
 }
 .body-header__contacts {
@@ -2107,7 +2049,6 @@ body::after {
 }
 @media (max-width: 75em) {
   .body-header__cart {
-    position: absolute;
     top: 0;
     right: 0;
     margin-left: auto;
