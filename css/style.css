@@ -9831,24 +9831,24 @@ body::after {
 }
 @media (max-width: 40.1875em) {
   .choise-list__item:last-child .spollers__body {
-    left: -2.0625rem;
+    left: 0rem;
   }
 }
 @media (max-width: 29.99875em) {
-  @supports (left: clamp( -9.5rem , 9.2560240964rem  +  -62.6506024096vw , -6.25rem )) {
+  @supports (left: clamp( -8.875rem , 23.9136904762rem  +  -109.5238095238vw , -3.125rem )) {
     .choise-list__item:last-child .spollers__body {
-      left: clamp( -9.5rem , 9.2560240964rem  +  -62.6506024096vw , -6.25rem );
+      left: clamp( -8.875rem , 23.9136904762rem  +  -109.5238095238vw , -3.125rem );
     }
   }
-  @supports not (left: clamp( -9.5rem , 9.2560240964rem  +  -62.6506024096vw , -6.25rem )) {
+  @supports not (left: clamp( -8.875rem , 23.9136904762rem  +  -109.5238095238vw , -3.125rem )) {
     .choise-list__item:last-child .spollers__body {
-      left: calc(-6.25rem + -3.25 * (100vw - 24.75rem) / 5.1875);
+      left: calc(-3.125rem + -5.75 * (100vw - 24.6875rem) / 5.25);
     }
   }
 }
-@media (max-width: 396px) {
+@media (max-width: 24.75em) {
   .choise-list__item:last-child .spollers__body {
-    left: 0%;
+    left: 0;
   }
 }
 @media (max-width: 21.5625em) {
